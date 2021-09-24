@@ -1,0 +1,128 @@
+body
+{
+    background-color:#E8F6EF;
+}
+.title
+{
+    text-align: center;
+    font-size: 4rem;
+     font-family: 'Patrick Hand', cursive;
+     margin-top: 70px;
+}
+.top_container
+{
+    padding-left: 15%;
+    padding-top: 4%;
+}
+.intro
+{
+    padding: 2% 15% 1% 15%;
+    font-family: 'Lora', serif;
+    line-height: 1.7;
+}
+hr{
+
+    color:grey;
+    width:80%;
+
+}
+.table_heading
+{
+    font-size: 1.5rem;
+    color: #79B4B7;
+}
+.stat
+{
+    padding: 3% 15% 3% 15%;
+}
+.pic{
+    width:500px;
+    height:360px;
+    padding-top: 10px;
+}
+.scndpic
+{   
+   padding-left: 220px;
+   
+}
+.last_table
+{
+    margin-left: 50px;
+    line-height: 2;
+}
+.bottom_container
+{
+    padding: 1% 15% 3% 15%;
+}
+.footer
+{
+    background-color: #9DBEB9;
+    color: #1687A7;
+    padding:3%;
+     text-align: center;
+}
+@media screen and (max-width:480px) 
+{
+    .dhoni_top
+    {
+        width:200px;
+    }
+    .pic
+    {
+        width:300px;
+        height:200px;
+    }
+    .scndpic
+    {
+        padding-left:20px;   
+    }
+    .intro
+    {
+        font-size:smaller;
+    }
+    .title
+    {
+        font-size: 2rem;
+    }
+    .last_table
+    {
+        margin-left: 10px;
+    }
+    .bottom_container
+    {
+        padding-left:8% ;
+    }
+}
+@media (min-width:490px) and (max-width:780px) {
+    .dhoni_top
+    {
+        width: 600px;
+    }
+    .scndpic
+    {
+        padding-left: 130px;
+    }
+    .last_table
+    {
+        margin-left: 120px;
+    }
+    
+}
+@media (min-width:790px) and (max-width:1030px) {
+    .scndpic
+    {
+        padding-left:130px;
+    }
+    .dhoni_top
+    {
+        width:750px;
+    }
+    .title
+    {
+        font-size: 6rem;
+    }
+    .last_table
+    {
+        margin-left: 120px;
+    }
+}
